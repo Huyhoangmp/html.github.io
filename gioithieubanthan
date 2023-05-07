@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Giới thiệu bản thân</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        /* background-image: url("im.jpg"); */
+        background-color: rgb(14, 156, 178);
+      }
+      .main {
+        width: 1000px;
+        height: 450px;
+        /* border: 10px dashed black; */
+        background: cornsilk;
+        /* border: 5px solid red; */
+        border-radius: 16px;
+        margin: 120px auto;
+        padding: 10px;
+      }
+      img {
+        border-radius: 16px;
+        height: 430px;
+        width: auto;
+      }
+      .content {
+        float: left;
+        display: flex;
+      }
+      .content1 {
+        text-align: center;
+        font-family: Lucida Sans Unicode;
+        display: grid;
+        /* place-items: center; */
+        /* grid-template-columns: auto auto; */
+        padding: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <img src="images.jpg" alt="" />
+        <!-- <h2 style="text-align: center">Đào Huy Hoàng</h2> -->
+      </div>
+      <div class="content1">
+        <div><h2>Đào Huy Hoàng</h2></div>
+        <div>Sinh năm : 2004</div>
+        <div>Đang học tại Học viện bưu chính viễn thông</div>
+        <div>Sở thích : Chơi thể thao</div>
+        <div>Trạng thái : Độc thân</div>
+        <div>Idol :Nhìn avatar là rõ</div>
+        <div>
+          Facebook :
+          <a href="https://facebook.com/" target="_blank">
+            <i>Đào Hoàng</i>
+          </a>
+        </div>
+        <div>Email :<em> huyhoangmtl11@gmail.com </em></div>
+        <div>SĐT : <em> 0384432831 </em></div>
+      </div>
+    </div>
+  </body>
+</html>
